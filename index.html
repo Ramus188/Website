@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTPS OG</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="GTPS OG Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="online-players">Online Players: <span id="online-count">0</span></div>
+    </header>
+    
+    <section id="home" class="section">
+        <h1>Welcome to GTPS OG</h1>
+        <button id="start-playing">Start Playing Now</button>
+    </section>
+    
+    <section id="about" class="section">
+        <h2>About</h2>
+        <p>GTPS OG is a Growtopia private server...</p>
+        <button id="read-more">Read More</button>
+        <div id="read-more-popup" class="popup">
+            <button class="close-popup">&times;</button>
+            <p>More about GTPS OG...</p>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <a href="https://discord.gg/ugwUYzrCRw" target="_blank">
+            <img src="discord-logo.png" alt="Discord Logo" class="discord-logo">
+        </a>
+    </section>
+
+    <div id="start-playing-popup" class="popup">
+        <button class="close-popup">&times;</button>
+        <h3>Choose Your Platform</h3>
+        <button class="platform-button" data-platform="apple">Apple</button>
+        <button class="platform-button" data-platform="android">Android</button>
+        <button class="platform-button" data-platform="windows">Windows</button>
+        <button class="platform-button" data-platform="macos">macOS</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 GTPS OG. All rights reserved.</p>
+    </footer>
+</body>
+</html>
